@@ -22,7 +22,7 @@
 ## Installation
 
 ```
-git clone https://github.com/your-username/eagleshot.git
+git clone https://github.com/yellow-footed-honeyguide/eagleshot.git 
 cd eagleshot
 mkdir build && cd build
 meson ..
