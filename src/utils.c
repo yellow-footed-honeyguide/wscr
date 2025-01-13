@@ -51,6 +51,6 @@ char *generate_filename(void) {
         exit(EXIT_FAILURE);         // Exit the program with failure status
     }
     // Format the filename with current date and time
-    strftime(filename, 64, "scr_%Y%m%d_%H%M%S.png", tm);
+    strftime(filename, 64, "%Y_%m_%d-%H_%M_%S.png", tm);
     return filename;  // Return the generated filename
 }

@@ -1,5 +1,5 @@
 project('eagleshot', 'c',
-  version : '0.1.2',
+  version : '0.1.3',
   default_options : ['warning_level=3'])
 
 add_project_arguments('-D_POSIX_C_SOURCE=200809L', language : 'c')
